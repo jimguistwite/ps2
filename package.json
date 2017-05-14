@@ -1,0 +1,48 @@
+{
+  "name": "ps2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "raspberry pi app server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "grunt": "grunt",
+    "start": "node ./bin/www"
+  },
+  "author": "Jim Guistwite <jguistwite@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/async": "^2.0.37",
+    "@types/bunyan": "0.0.34",
+    "@types/config": "0.0.31",
+    "@types/request": "0.0.39",
+    "@types/rpio": "0.0.1",
+    "@types/rx": "^4.1.0",
+    "async": "^2.1.4",
+    "body-parser": "^1.15.2",
+    "bunyan": "^1.8.10",
+    "config": "^1.26.1",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.79.0",
+    "rpio": "0.9.14",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/errorhandler": "0.0.30",
+    "@types/method-override": "0.0.29",
+    "@types/morgan": "^1.7.32",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.3",
+    "nodemon": "^1.11.0",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.4"
+  }
+}
